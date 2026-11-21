@@ -138,3 +138,5 @@ footer a{text-decoration-color:#ffffff40;text-underline-offset:4px}footer a:hove
 @media(max-width:560px){.hero{padding:54px 0 48px}.tool{padding:56px 0}.card{padding:20px 20px}.sub{font-size:17px}.nav nav{gap:14px;font-size:14px}.hero::before,.hero::after{width:380px;height:380px}}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}html{scroll-behavior:auto}.rv{opacity:1;transform:none}}
 html{scroll-padding-top:70px}
+
+.old{display:block;font-size:.5em;font-weight:600;color:var(--mut);text-decoration:line-through;text-decoration-thickness:2px;text-decoration-color:#ff6b6b;text-shadow:none;opacity:.85;margin-bottom:2px;line-height:1.3}
