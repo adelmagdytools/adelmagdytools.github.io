@@ -143,3 +143,14 @@ html{scroll-padding-top:70px}
 
 .btn.dl{background:#eef1f8;color:#0a0d14;border-color:#eef1f8;box-shadow:0 8px 24px -10px #eef1f8}.btn.dl:hover{background:#fff;box-shadow:0 12px 28px -8px #fff}
 .tool.rem{--ac:#ffb84d}
+
+html,body{overflow-x:hidden;-webkit-text-size-adjust:100%;text-size-adjust:100%}
+.nav{max-width:100%}.nav-in{flex-wrap:wrap;gap:8px 16px}.nav nav{flex-wrap:wrap;gap:4px 14px;min-width:0}
+.hero h1{line-height:1.55;overflow-wrap:break-word}
+.g1,.g2,.g3,.g4{-webkit-box-decoration-break:clone;box-decoration-break:clone;padding:0 .06em}
+.g4{background-clip:text;-webkit-background-clip:text;color:transparent;-webkit-text-fill-color:transparent;background-image:linear-gradient(90deg,#ffb84d,#ffd88a)}
+.btn.primary.rem{background:#ffb84d;border-color:#ffb84d;color:#2a1a00;box-shadow:0 8px 24px -8px #ffb84d}
+.hero+.tool{border-top:0}.hero+.tool::before{opacity:0}
+@media(max-width:560px){.hero h1{font-size:clamp(25px,7.4vw,32px)}.hero .wrap::before{width:260px;margin-left:-130px}.hero::before,.hero::after{max-width:100vw}}
+.h1b{display:block;margin-top:2px}
+@media(max-width:560px){.hero h1{font-size:clamp(24px,7vw,30px)}}
