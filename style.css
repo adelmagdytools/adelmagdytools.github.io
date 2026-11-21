@@ -166,3 +166,14 @@ html,body{overflow-x:hidden;-webkit-text-size-adjust:100%;text-size-adjust:100%}
 .install small{display:block;font-weight:400;opacity:.7;font-size:12.5px;margin-top:2px}
 .install ol{margin:0 0 8px;padding-right:22px;line-height:1.9}
 .install p{margin:0 0 14px;opacity:.75;font-size:14px}
+.guide{margin:22px 0 8px;padding:20px 18px;border-radius:18px;border:2px solid #4c8dff;background:linear-gradient(160deg,rgba(76,141,255,.16),rgba(255,95,162,.08))}
+.ig .guide{border-color:#ff5fa2}
+.guide h3{margin:0 0 6px;font-size:20px}
+.guide .gsub{margin:0 0 14px;opacity:.85;font-size:15px;line-height:1.7}
+.gsteps{list-style:none;counter-reset:s;margin:0;padding:0}
+.gsteps li{counter-increment:s;position:relative;padding:4px 52px 14px 0;line-height:1.7}
+.gsteps li::before{content:counter(s,arabic-indic);position:absolute;right:0;top:2px;width:38px;height:38px;border-radius:50%;background:linear-gradient(135deg,#4c8dff,#ff5fa2);color:#fff;font-weight:800;font-size:18px;display:flex;align-items:center;justify-content:center}
+.gsteps li b{display:block;font-size:17px;margin-bottom:2px}
+.gsteps li span{display:block;opacity:.85;font-size:15px}
+.gsteps .code,.guide bdi.code{background:rgba(255,255,255,.1);padding:1px 8px;border-radius:6px;font-family:monospace;font-size:14px;white-space:nowrap}
+.guide .gnote{margin:6px 0 0;font-size:13.5px;opacity:.75;line-height:1.7}
