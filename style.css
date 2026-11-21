@@ -142,3 +142,4 @@ html{scroll-padding-top:70px}
 .old{display:block;font-size:.5em;font-weight:600;color:var(--mut);text-decoration:line-through;text-decoration-thickness:2px;text-decoration-color:#ff6b6b;text-shadow:none;opacity:.85;margin-bottom:2px;line-height:1.3}
 
 .btn.dl{background:#eef1f8;color:#0a0d14;border-color:#eef1f8;box-shadow:0 8px 24px -10px #eef1f8}.btn.dl:hover{background:#fff;box-shadow:0 12px 28px -8px #fff}
+.tool.rem{--ac:#ffb84d}
