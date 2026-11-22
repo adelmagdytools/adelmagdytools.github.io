@@ -178,4 +178,6 @@ html,body{overflow-x:hidden;-webkit-text-size-adjust:100%;text-size-adjust:100%}
 .gsteps .code,.guide bdi.code{background:rgba(255,255,255,.1);padding:1px 8px;border-radius:6px;font-family:monospace;font-size:14px;white-space:nowrap}
 .guide .gnote{margin:6px 0 0;font-size:13.5px;opacity:.75;line-height:1.7}
 .shbg{width:100%;border-radius:18px;border:1px solid #ffffff14;box-shadow:0 24px 60px -20px #000c}
-.tool.fashion{--ac:#c77dff}.tool.hotels{--ac:#ff9f6b}.tool.edaraa{--ac:#36d6e7}
+.tool.fashion{--ac:#c77dff}.tool.hotels{--ac:#ff9f6b}
+
+.js .guide[data-guide]{display:none}.js .guide[data-guide].open{display:block}.btn.guidebtn{cursor:pointer;font:inherit;background:#4c8dff;border-color:#4c8dff;color:#fff;font-weight:700}.ig .btn.guidebtn{background:#ff5fa2;border-color:#ff5fa2}
