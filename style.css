@@ -181,3 +181,5 @@ html,body{overflow-x:hidden;-webkit-text-size-adjust:100%;text-size-adjust:100%}
 .tool.fashion{--ac:#c77dff}.tool.hotels{--ac:#ff9f6b}
 
 .js .guide[data-guide]{display:none}.js .guide[data-guide].open{display:block}.btn.guidebtn{cursor:pointer;font:inherit;background:#4c8dff;border-color:#4c8dff;color:#fff;font-weight:700}.ig .btn.guidebtn{background:#ff5fa2;border-color:#ff5fa2}
+
+.btn.primary.fas{background:#c77dff;border-color:#c77dff;color:#1d0833;box-shadow:0 8px 24px -8px #c77dff}.btn.primary.htl{background:#ff9f6b;border-color:#ff9f6b;color:#2a1000;box-shadow:0 8px 24px -8px #ff9f6b}
