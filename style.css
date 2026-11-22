@@ -186,3 +186,13 @@ html,body{overflow-x:hidden;-webkit-text-size-adjust:100%;text-size-adjust:100%}
 .tool.vid{--ac:#ff5c5c}.btn.primary.vid{background:#ff5c5c;border-color:#ff5c5c;color:#2a0510;box-shadow:0 8px 24px -8px #ff5c5c}
 .g5{background-clip:text;-webkit-background-clip:text;color:transparent;-webkit-text-fill-color:transparent;background-image:linear-gradient(90deg,#ff5c5c,#ff9e9e)}
 .g1,.g2,.g3,.g4,.g5{padding:0 .06em}
+
+/* facebook page link */
+.fb-ico{display:inline-flex;align-items:center;justify-content:center;gap:6px;color:#4c8dff;vertical-align:middle;text-decoration:none}
+.fb-ico svg{width:20px;height:20px;fill:currentColor;flex:none}
+.fb-ico:hover{color:#fff}
+.nav nav a.fb-ico{padding:0}
+.nav nav a.fb-ico::after{display:none}
+.btn.fbpg{background:#1877f2;border-color:#1877f2;color:#fff;display:inline-flex;align-items:center;justify-content:center;gap:8px}
+.btn.fbpg svg{width:18px;height:18px;fill:currentColor}
+@media (max-width:640px){.btn.fbpg{width:100%}}
